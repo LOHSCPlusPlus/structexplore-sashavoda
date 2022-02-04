@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 struct Point {
@@ -8,7 +7,6 @@ struct Point {
 };
 Point::Point() {
 	// Normally, you do not print in a constructor
-	cout << "In the constructor" << endl;
 	x = 0;
 	y = 0;
 }
